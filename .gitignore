@@ -1,0 +1,18 @@
+#Archivos compilados de java 
+*.class
+*.jar
+
+# carpetas de salida 
+out/
+bin/
+target/
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.iml
+
+#archivos del sistema 
+
+.DS_Store
+Thumbs.db

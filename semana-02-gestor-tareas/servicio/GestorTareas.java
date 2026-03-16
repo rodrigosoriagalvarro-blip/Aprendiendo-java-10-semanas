@@ -9,7 +9,7 @@ public class GestorTareas {
 
     public GestorTareas() {
         this.tareas = new ArrayList<>();
-        this.proximoId = 1; // ID automático inicial (RT3)
+        this.proximoId = 1;
     }
 
     public void agregar(String titulo, String descripcion) {
@@ -70,7 +70,6 @@ public class GestorTareas {
         return null;
     }
 
-    // Estadísticas
     public int totalTareas() { return tareas.size(); }
     
     public int totalPendientes() {

@@ -13,13 +13,11 @@ public class Tarea {
         this.estado = "PENDIENTE";
     }
 
-    // Getters
     public int getId() { return id; }
     public String getTitulo() { return titulo; }
     public String getDescripcion() { return descripcion; }
     public String getEstado() { return estado; }
 
-    // Setters con validaciones (RT4)
     public void setTitulo(String titulo) {
         if (titulo == null || titulo.trim().isEmpty()) {
             throw new IllegalArgumentException("El título no puede estar vacío");

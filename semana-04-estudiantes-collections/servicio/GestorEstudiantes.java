@@ -17,6 +17,29 @@ public class GestorEstudiantes {
         historial = new ArrayList<>();
     }
 
+    public boolean agregar(Estudiante e) {
+        if (porCarnet.containsKey(e.getCarnet())) {
+            return false;
+        }
+        porCarnet.put(e.getCarnet(), e);
+        ranking.add(e);
+        historial.add("AGREGAR : " + e.getCarnet() + " - " + e.getNombre());
+        return true;
+    }
+
+    public Estudiante buscar(String carnet) {
+        return porCarnet.get(carnet);
+    }
+
+    public boolean eliminar(String carnet) {
+        Estudiante e = porCarnet.remove(carnet);
+        if (e == null) return false;
+        
+        ranking.remove(e);
+        historial.add("ELIMINAR : " + carnet + " - " + e.getNombre());
+        return true;
+    }
+
     public void filtrarPorCarrera(String carrera) {
         System.out.println("\n=== Carrera: " + carrera + " ===");
         boolean hayAlguno = false;
@@ -37,9 +60,7 @@ public class GestorEstudiantes {
             return;
         }
         double suma = 0;
-        for (Estudiante e : ranking) {
-            suma += e.getPromedio();
-        }
+        for (Estudiante e : ranking) suma += e.getPromedio();
         
         System.out.println("\n=== Estadisticas ===");
         System.out.println(" Total     : " + ranking.size());

@@ -34,10 +34,33 @@ public class GestorEstudiantes {
     public boolean eliminar(String carnet) {
         Estudiante e = porCarnet.remove(carnet);
         if (e == null) return false;
-        
         ranking.remove(e);
         historial.add("ELIMINAR : " + carnet + " - " + e.getNombre());
         return true;
+    }
+
+    public void mostrarRanking() {
+        System.out.println("\n=== Ranking de estudiantes ===");
+        int pos = 1;
+        for (Estudiante e : ranking) {
+            System.out.printf("%3d. %s\n", pos++, e);
+        }
+    }
+
+    public void mostrarTop5() {
+        System.out.println("\n=== Top 5 estudiantes ===");
+        if (ranking.isEmpty()) {
+            System.out.println("No hay estudiantes registrados.");
+            return;
+        }
+        
+        Estudiante[] arr = ranking.toArray(new Estudiante[0]);
+        int count = 0;
+        int inicio = Math.max(0, arr.length - 5);
+        
+        for (int i = arr.length - 1; i >= inicio; i--) {
+            System.out.printf("%d. %s\n", ++count, arr[i]);
+        }
     }
 
     public void filtrarPorCarrera(String carrera) {

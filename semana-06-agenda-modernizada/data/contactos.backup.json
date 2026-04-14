@@ -1,0 +1,72 @@
+[
+  {
+    "id": "C001",
+    "nombre": "Juan Perez",
+    "telefono": "72345678",
+    "email": "juan@gmail.com",
+    "direccion": "Av. 6 de Agosto 123"
+  },
+  {
+    "id": "C002",
+    "nombre": "Maria Lopez",
+    "telefono": "79876543",
+    "email": "maria@hotmail.com",
+    "direccion": ""
+  },
+  {
+    "id": "C003",
+    "nombre": "Pedro Quispe",
+    "telefono": "68112233",
+    "email": "",
+    "direccion": "Calle Cochabamba 45"
+  },
+  {
+    "id": "C004",
+    "nombre": "Ana Torres",
+    "telefono": "71234567",
+    "email": "ana@gmail.com",
+    "direccion": "Calle Sucre 10"
+  },
+  {
+    "id": "C005",
+    "nombre": "Carlos Mendoza",
+    "telefono": "60011223",
+    "email": "carlos@outlook.com",
+    "direccion": "Av. Villazon"
+  },
+  {
+    "id": "C006",
+    "nombre": "Lucia Fernandez",
+    "telefono": "77889900",
+    "email": "lucia@gmail.com",
+    "direccion": ""
+  },
+  {
+    "id": "C007",
+    "nombre": "Roberto Gomez",
+    "telefono": "65432109",
+    "email": "",
+    "direccion": "Zona Central"
+  },
+  {
+    "id": "C008",
+    "nombre": "Elena Rios",
+    "telefono": "78901234",
+    "email": "elena@yahoo.com",
+    "direccion": "Calle 14 de Septiembre"
+  },
+  {
+    "id": "C009",
+    "nombre": "Miguel Salazar",
+    "telefono": "70099887",
+    "email": "miguel@gmail.com",
+    "direccion": "Av. America"
+  },
+  {
+    "id": "C010",
+    "nombre": "Sofia Mamani",
+    "telefono": "61122334",
+    "email": "sofia@hotmail.com",
+    "direccion": "Calle Bolivar"
+  }
+]

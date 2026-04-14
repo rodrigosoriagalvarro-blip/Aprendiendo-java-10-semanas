@@ -1,0 +1,107 @@
+[
+  {
+    "id": "C001",
+    "nombre": "Juan Perez",
+    "telefono": "71111111",
+    "email": "wweewe@d",
+    "direccion": "Amigo"
+  },
+  {
+    "id": "C002",
+    "nombre": "Maria Lopez",
+    "telefono": "79876543",
+    "email": "maria@hotmail.com",
+    "direccion": "Amigo"
+  },
+  {
+    "id": "C003",
+    "nombre": "Pedro Quispe",
+    "telefono": "68112233",
+    "email": "",
+    "direccion": "Amigo"
+  },
+  {
+    "id": "C004",
+    "nombre": "Ana Torres",
+    "telefono": "71234567",
+    "email": "ana@gmail.com",
+    "direccion": "trabajo"
+  },
+  {
+    "id": "C005",
+    "nombre": "Carlos Mendoza",
+    "telefono": "60011223",
+    "email": "carlos@outlook.com",
+    "direccion": "trabajo"
+  },
+  {
+    "id": "C006",
+    "nombre": "Lucia Fernandez",
+    "telefono": "77889900",
+    "email": "lucia@gmail.com",
+    "direccion": "trabajo"
+  },
+  {
+    "id": "C007",
+    "nombre": "Roberto Gomez",
+    "telefono": "65432109",
+    "email": "",
+    "direccion": "escuela"
+  },
+  {
+    "id": "C008",
+    "nombre": "Elena Rios",
+    "telefono": "78901234",
+    "email": "elena@yahoo.com",
+    "direccion": "escuela"
+  },
+  {
+    "id": "C009",
+    "nombre": "Miguel Salazar",
+    "telefono": "70099887",
+    "email": "miguel@gmail.com",
+    "direccion": "escuela"
+  },
+  {
+    "id": "C010",
+    "nombre": "Sofia Mamani",
+    "telefono": "61122334",
+    "email": "sofia@hotmail.com",
+    "direccion": "Amigos"
+  },
+  {
+    "id": "C011",
+    "nombre": "Rodrigo soria ",
+    "telefono": "7232434",
+    "email": "rere@fe",
+    "direccion": "vecino"
+  },
+  {
+    "id": "C012",
+    "nombre": "Alejandra Isabela le",
+    "telefono": "70707070",
+    "email": "lulu@gmail",
+    "direccion": "amor"
+  },
+  {
+    "id": "C013",
+    "nombre": "Alejandra Ledezma An",
+    "telefono": "234353",
+    "email": "rewe@reew",
+    "direccion": "amor"
+  },
+  {
+    "id": "C014",
+    "nombre": "Roly fernandes",
+    "telefono": "23232",
+    "email": "rolyhot@hotmail",
+    "direccion": "Trabajo"
+  },
+  {
+    "id": "C015",
+    "nombre": "Camila Perez",
+    "telefono": "34335",
+    "email": "fefsfs@fe",
+    "direccion": "Trabajo"
+  }
+]

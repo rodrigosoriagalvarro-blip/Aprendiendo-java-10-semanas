@@ -16,7 +16,9 @@ ing.informatica -Universidad Tecnica de Oruro.
 |  6   |    Java Moderno + Testing con JUnit       |   semana-06-agenda-modernizada/    |
 |  7   |        Vaadin - primera parte             |       semana-07-agenda-web/        |
 |  8   | Vaadin-Estructura y componentes visuales  |       semana-08-agenda-web/        |
-|      |                                           |                                    |
+|  9   |  Vaadin - formularios Y persistencia      |       semana-09-agenda-web/        |
+|  10  |     Vaadin - la agenda completa           |       semana-10-agenda-web/        |
+
 
 ## autor
 Univ.Rodrigo Sebastian Soria Galvarro Gutierrez
